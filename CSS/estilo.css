@@ -1,3 +1,48 @@
-h1 {color: rgb(217, 255, 0); background-color: aqua;}
-p {color: violet}
-body {font-family: Arial, Helvetica, sans-serif; color: beige;}
+
+/* Selectores por etiqueta */
+
+html {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3 {
+    font-family: "Lato Black";
+}
+
+h1, h2 {
+    color: #2C637F;
+}
+
+h3 {
+    color: #5091B2;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+/* Selectores por clase (class)*/
+
+.foto-perfil {
+    width: 20%;
+}
+
+.datos-personales {
+    list-style: none;
+    padding: 0;
+}
+
+.seccion {
+    background: #eee;
+}
+
+.nombre-materia {
+    color: #5091B2;
+    font-style: italic;
+}
